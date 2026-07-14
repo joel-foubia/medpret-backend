@@ -1,1 +1,17 @@
+com\medpret\entity\User$UserBuilder.class
+com\medpret\entity\MaintenanceTicket.class
+com\medpret\entity\Equipment$EquipmentBuilder.class
+com\medpret\entity\MaintenanceTicket$MaintenanceTicketBuilder.class
+com\medpret\entity\Equipment$Status.class
+com\medpret\entity\Loan$LoanBuilder.class
+com\medpret\entity\MaintenanceTicket$Priority.class
+com\medpret\entity\Notification$NotificationBuilder.class
+com\medpret\entity\User$Role.class
+com\medpret\entity\Notification.class
+com\medpret\entity\Equipment.class
+com\medpret\entity\Loan$Status.class
+com\medpret\entity\Loan.class
+com\medpret\entity\MaintenanceTicket$Status.class
+com\medpret\entity\Notification$Type.class
 com\medpret\MedpretApplication.class
+com\medpret\entity\User.class
