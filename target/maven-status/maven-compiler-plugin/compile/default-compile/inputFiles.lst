@@ -1,6 +1,13 @@
+C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\controller\AuthController.java
+C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\dto\LoginRequest.java
+C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\dto\RegisterRequest.java
 C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\entity\Equipment.java
 C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\entity\Loan.java
 C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\entity\MaintenanceTicket.java
 C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\entity\Notification.java
 C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\entity\User.java
 C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\MedpretApplication.java
+C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\repository\UserRepository.java
+C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\security\JwtFilter.java
+C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\security\JwtUtil.java
+C:\Users\RENARD\medpret-backend\src\main\java\com\medpret\security\SecurityConfig.java
