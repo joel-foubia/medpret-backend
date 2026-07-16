@@ -27,10 +27,16 @@ public class Notification {
     @Column(nullable = false)
     private Type type;
 
-    @Column(nullable = false)
+    // @Column(nullable = false)
+    // private boolean read = false;
+
+    // @Column(nullable = false, updatable = false)
+    // private LocalDateTime createdAt = LocalDateTime.now();
+
+    @Builder.Default
     private boolean read = false;
 
-    @Column(nullable = false, updatable = false)
+    @Builder.Default
     private LocalDateTime createdAt = LocalDateTime.now();
 
     public enum Type {

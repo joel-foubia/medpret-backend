@@ -29,13 +29,21 @@ public class MaintenanceTicket {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
+    // private Status status = Status.OPEN;
+
+    // @Enumerated(EnumType.STRING)
+    // @Column(nullable = false)
+    // private Priority priority = Priority.MEDIUM;
+
+    // @Column(nullable = false, updatable = false)
+    // private LocalDateTime createdAt = LocalDateTime.now();
+    @Builder.Default
     private Status status = Status.OPEN;
 
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
+    @Builder.Default
     private Priority priority = Priority.MEDIUM;
 
-    @Column(nullable = false, updatable = false)
+    @Builder.Default
     private LocalDateTime createdAt = LocalDateTime.now();
 
     private LocalDateTime resolvedAt;

@@ -32,11 +32,17 @@ public class User {
     @Column(nullable = false)
     private Role role;
 
-    @Column(nullable = false)
-    private boolean active = true;
+   // @Column(nullable = false)
+    //private boolean active = true;
 
-    @Column(nullable = false, updatable = false)
-    private LocalDateTime createdAt = LocalDateTime.now();
+//    @Column(nullable = false, updatable = false)
+  //  private LocalDateTime createdAt = LocalDateTime.now();
+
+@Builder.Default
+private boolean active = true;
+
+@Builder.Default
+private LocalDateTime createdAt = LocalDateTime.now();
 
     public enum Role {
         ADMIN, STAFF, STUDENT

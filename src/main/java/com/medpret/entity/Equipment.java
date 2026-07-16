@@ -30,10 +30,11 @@ public class Equipment {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private Status status = Status.AVAILABLE;
+   @Builder.Default
+private Status status = Status.AVAILABLE;
 
-    @Column(nullable = false, updatable = false)
-    private LocalDateTime createdAt = LocalDateTime.now();
+@Builder.Default
+private LocalDateTime createdAt = LocalDateTime.now();
 
     public enum Status {
         AVAILABLE, LOANED, MAINTENANCE, RETIRED

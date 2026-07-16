@@ -34,13 +34,19 @@ public class Loan {
     private LocalDate actualReturnDate;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
-    private Status status = Status.ACTIVE;
+    // @Column(nullable = false)
+    // private Status status = Status.ACTIVE;
+
+    // @Column(nullable = false, updatable = false)
+    // private LocalDateTime createdAt = LocalDateTime.now();
+
+    @Builder.Default
+private Status status = Status.ACTIVE;
+
+@Builder.Default
+private LocalDateTime createdAt = LocalDateTime.now();
 
     private String notes;
-
-    @Column(nullable = false, updatable = false)
-    private LocalDateTime createdAt = LocalDateTime.now();
 
     public enum Status {
         ACTIVE, RETURNED, OVERDUE, CANCELLED
